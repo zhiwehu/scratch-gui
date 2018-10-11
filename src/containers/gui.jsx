@@ -135,7 +135,7 @@ const mapStateToProps = (state, ownProps) => ({
     isPlayerOnly: state.scratchGui.mode.isPlayerOnly,
     isRtl: state.locales.isRtl,
     loadingStateVisible: state.scratchGui.modals.loadingProject,
-    previewInfoVisible: state.scratchGui.modals.previewInfo && !ownProps.hideIntro,
+    previewInfoVisible: false,
     targetIsStage: (
         state.scratchGui.targets.stage &&
         state.scratchGui.targets.stage.id === state.scratchGui.targets.editingTarget

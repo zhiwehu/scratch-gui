@@ -30,7 +30,7 @@ const detectLocale = supportedLocales => {
             locale = urlLocale;
         }
     }
-    return locale;
+    return 'zh-cn';
 };
 
 export {
